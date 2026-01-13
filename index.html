@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<script src="js/main.js" defer></script>
+		<!-- defer атрибут что будет загружаться в конце -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="header__inner">
+					<button class="button__menu">
+						<span class="button-bar"></span>
+						<span class="button-bar"></span>
+						<span class="button-bar"></span>
+					</button>
+
+					<div class="header__logo">
+						<a href="#" class="header__logo-link">
+							<img src="images/img/logo.svg" alt="" />
+						</a>
+					</div>
+
+					<nav class="navigations menu">
+						<ul class="menu__items">
+							<li class="menu__item header__logo--mobile">
+								<a href="#" class="header__logo-link">
+									<img src="images/icons/logo-mobile.svg" alt="Logo" />
+								</a>
+							</li>
+							<button class="button__close">
+								<img src="images/icons/close.svg" alt="" />
+							</button>
+							<li class="menu__item dropdown">
+								<a href="#" class="menu__link dropdown-toggle" data-id="dropdown_menu-1">
+									<span class="menu__link-title">Servicios</span>
+									<svg
+										class="navigations__icons"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M19.7488 8.29624C19.3922 7.92433 18.7877 7.89921 18.3986 8.24013L12 13.848L5.60136 8.24013C5.24473 7.92762 4.70707 7.92268 4.34524 8.2105L4.25119 8.29624C3.89456 8.66816 3.92084 9.24603 4.30989 9.58695L11.3543 15.7599C11.3588 15.7638 11.3633 15.7677 11.3678 15.7715L11.2956 15.7038C11.3357 15.7456 11.3789 15.783 11.4246 15.8161C11.4416 15.8282 11.4588 15.8397 11.4762 15.8507C11.4938 15.8619 11.5121 15.8725 11.5306 15.8825C11.5475 15.8915 11.5643 15.9 11.5812 15.9079C11.6012 15.9172 11.6219 15.926 11.6429 15.934C11.6614 15.9412 11.6802 15.9478 11.6991 15.9538C11.7178 15.9596 11.7366 15.9649 11.7554 15.9697C11.7763 15.975 11.7975 15.9796 11.8187 15.9835C11.8405 15.9875 11.8625 15.9908 11.8846 15.9933C11.9006 15.9952 11.9169 15.9967 11.9333 15.9978C11.9558 15.9993 11.9782 16 12.0006 16C12.0225 16 12.0445 15.9992 12.0665 15.9978C12.0831 15.9967 12.0994 15.9952 12.1157 15.9933C12.1375 15.9908 12.1595 15.9875 12.1813 15.9835C12.2025 15.9796 12.2237 15.975 12.2447 15.9697C12.2634 15.9649 12.2822 15.9596 12.3007 15.9538C12.3198 15.9478 12.3386 15.9412 12.3572 15.934C12.3781 15.926 12.3988 15.9172 12.4192 15.9077C12.4357 15.9 12.4525 15.8915 12.469 15.8826C12.4879 15.8725 12.5062 15.8619 12.5241 15.8506C12.5412 15.8397 12.5584 15.8282 12.5752 15.816C12.6211 15.783 12.6643 15.7456 12.7044 15.7038L12.6322 15.7715C12.6367 15.7677 12.6412 15.7638 12.6457 15.7599L19.6901 9.58695C20.0792 9.24603 20.1054 8.66816 19.7488 8.29624Z"
+											fill="#F4F2FA"
+										/>
+									</svg>
+								</a>
+								<div class="dropdown__content" id="dropdown_menu-1">
+									<ul class="dropdown__menu">
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Laptop-Analysis-1.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Canales digitales y Growth Haking</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/E-commerce.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">E-commerce</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Node_user.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Headhunting y Mentoring</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Consultation.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Consultoría CRM</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Rise.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">
+													Analítica Digital e Inteligencia Artificial
+												</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Sync.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Diseño de experiencia</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Statistic.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Publicidad digital</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Technical Information.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Marketing Automation</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link dropdown-toggle" data-id="dropdown_menu-2">
+									<span class="menu__link-title">Productos</span>
+									<svg
+										class="navigations__icons"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M19.7488 8.29624C19.3922 7.92433 18.7877 7.89921 18.3986 8.24013L12 13.848L5.60136 8.24013C5.24473 7.92762 4.70707 7.92268 4.34524 8.2105L4.25119 8.29624C3.89456 8.66816 3.92084 9.24603 4.30989 9.58695L11.3543 15.7599C11.3588 15.7638 11.3633 15.7677 11.3678 15.7715L11.2956 15.7038C11.3357 15.7456 11.3789 15.783 11.4246 15.8161C11.4416 15.8282 11.4588 15.8397 11.4762 15.8507C11.4938 15.8619 11.5121 15.8725 11.5306 15.8825C11.5475 15.8915 11.5643 15.9 11.5812 15.9079C11.6012 15.9172 11.6219 15.926 11.6429 15.934C11.6614 15.9412 11.6802 15.9478 11.6991 15.9538C11.7178 15.9596 11.7366 15.9649 11.7554 15.9697C11.7763 15.975 11.7975 15.9796 11.8187 15.9835C11.8405 15.9875 11.8625 15.9908 11.8846 15.9933C11.9006 15.9952 11.9169 15.9967 11.9333 15.9978C11.9558 15.9993 11.9782 16 12.0006 16C12.0225 16 12.0445 15.9992 12.0665 15.9978C12.0831 15.9967 12.0994 15.9952 12.1157 15.9933C12.1375 15.9908 12.1595 15.9875 12.1813 15.9835C12.2025 15.9796 12.2237 15.975 12.2447 15.9697C12.2634 15.9649 12.2822 15.9596 12.3007 15.9538C12.3198 15.9478 12.3386 15.9412 12.3572 15.934C12.3781 15.926 12.3988 15.9172 12.4192 15.9077C12.4357 15.9 12.4525 15.8915 12.469 15.8826C12.4879 15.8725 12.5062 15.8619 12.5241 15.8506C12.5412 15.8397 12.5584 15.8282 12.5752 15.816C12.6211 15.783 12.6643 15.7456 12.7044 15.7038L12.6322 15.7715C12.6367 15.7677 12.6412 15.7638 12.6457 15.7599L19.6901 9.58695C20.0792 9.24603 20.1054 8.66816 19.7488 8.29624Z"
+											fill="#F4F2FA"
+										/>
+									</svg>
+								</a>
+								<div class="dropdown__content" id="dropdown_menu-2">
+									<ul class="dropdown__menu">
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Neo.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Neo Digital Skills</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/E-commerce.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Otros</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link dropdown-toggle" data-id="dropdown_menu-3">
+									<span class="menu__link-title">Recursos</span>
+									<svg
+										class="navigations__icons"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M19.7488 8.29624C19.3922 7.92433 18.7877 7.89921 18.3986 8.24013L12 13.848L5.60136 8.24013C5.24473 7.92762 4.70707 7.92268 4.34524 8.2105L4.25119 8.29624C3.89456 8.66816 3.92084 9.24603 4.30989 9.58695L11.3543 15.7599C11.3588 15.7638 11.3633 15.7677 11.3678 15.7715L11.2956 15.7038C11.3357 15.7456 11.3789 15.783 11.4246 15.8161C11.4416 15.8282 11.4588 15.8397 11.4762 15.8507C11.4938 15.8619 11.5121 15.8725 11.5306 15.8825C11.5475 15.8915 11.5643 15.9 11.5812 15.9079C11.6012 15.9172 11.6219 15.926 11.6429 15.934C11.6614 15.9412 11.6802 15.9478 11.6991 15.9538C11.7178 15.9596 11.7366 15.9649 11.7554 15.9697C11.7763 15.975 11.7975 15.9796 11.8187 15.9835C11.8405 15.9875 11.8625 15.9908 11.8846 15.9933C11.9006 15.9952 11.9169 15.9967 11.9333 15.9978C11.9558 15.9993 11.9782 16 12.0006 16C12.0225 16 12.0445 15.9992 12.0665 15.9978C12.0831 15.9967 12.0994 15.9952 12.1157 15.9933C12.1375 15.9908 12.1595 15.9875 12.1813 15.9835C12.2025 15.9796 12.2237 15.975 12.2447 15.9697C12.2634 15.9649 12.2822 15.9596 12.3007 15.9538C12.3198 15.9478 12.3386 15.9412 12.3572 15.934C12.3781 15.926 12.3988 15.9172 12.4192 15.9077C12.4357 15.9 12.4525 15.8915 12.469 15.8826C12.4879 15.8725 12.5062 15.8619 12.5241 15.8506C12.5412 15.8397 12.5584 15.8282 12.5752 15.816C12.6211 15.783 12.6643 15.7456 12.7044 15.7038L12.6322 15.7715C12.6367 15.7677 12.6412 15.7638 12.6457 15.7599L19.6901 9.58695C20.0792 9.24603 20.1054 8.66816 19.7488 8.29624Z"
+											fill="#F4F2FA"
+										/>
+									</svg>
+								</a>
+								<div class="dropdown__content" id="dropdown_menu-3">
+									<ul class="dropdown__menu">
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link dropdown-toggle">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Descargables.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Descargables</div>
+											</a>
+										</li>
+										<li class="dropdown__item">
+											<a href="#" class="dropdown__link dropdown-toggle">
+												<span class="dropdown__link-icon">
+													<img src="images/icons/Webinnars.svg" alt="" />
+												</span>
+												<div class="dropdown__link-text">Webinnars</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link dropdown-toggle">
+									<span class="menu__link-title">Casos de éxito</span>
+									<!-- <svg
+										class="navigations__icons"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M19.7488 8.29624C19.3922 7.92433 18.7877 7.89921 18.3986 8.24013L12 13.848L5.60136 8.24013C5.24473 7.92762 4.70707 7.92268 4.34524 8.2105L4.25119 8.29624C3.89456 8.66816 3.92084 9.24603 4.30989 9.58695L11.3543 15.7599C11.3588 15.7638 11.3633 15.7677 11.3678 15.7715L11.2956 15.7038C11.3357 15.7456 11.3789 15.783 11.4246 15.8161C11.4416 15.8282 11.4588 15.8397 11.4762 15.8507C11.4938 15.8619 11.5121 15.8725 11.5306 15.8825C11.5475 15.8915 11.5643 15.9 11.5812 15.9079C11.6012 15.9172 11.6219 15.926 11.6429 15.934C11.6614 15.9412 11.6802 15.9478 11.6991 15.9538C11.7178 15.9596 11.7366 15.9649 11.7554 15.9697C11.7763 15.975 11.7975 15.9796 11.8187 15.9835C11.8405 15.9875 11.8625 15.9908 11.8846 15.9933C11.9006 15.9952 11.9169 15.9967 11.9333 15.9978C11.9558 15.9993 11.9782 16 12.0006 16C12.0225 16 12.0445 15.9992 12.0665 15.9978C12.0831 15.9967 12.0994 15.9952 12.1157 15.9933C12.1375 15.9908 12.1595 15.9875 12.1813 15.9835C12.2025 15.9796 12.2237 15.975 12.2447 15.9697C12.2634 15.9649 12.2822 15.9596 12.3007 15.9538C12.3198 15.9478 12.3386 15.9412 12.3572 15.934C12.3781 15.926 12.3988 15.9172 12.4192 15.9077C12.4357 15.9 12.4525 15.8915 12.469 15.8826C12.4879 15.8725 12.5062 15.8619 12.5241 15.8506C12.5412 15.8397 12.5584 15.8282 12.5752 15.816C12.6211 15.783 12.6643 15.7456 12.7044 15.7038L12.6322 15.7715C12.6367 15.7677 12.6412 15.7638 12.6457 15.7599L19.6901 9.58695C20.0792 9.24603 20.1054 8.66816 19.7488 8.29624Z"
+											fill="#F4F2FA"
+										/>
+									</svg> -->
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link dropdown-toggle">
+									<span class="menu__link-title">Blog</span>
+									<!-- <svg
+										class="navigations__icons"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M19.7488 8.29624C19.3922 7.92433 18.7877 7.89921 18.3986 8.24013L12 13.848L5.60136 8.24013C5.24473 7.92762 4.70707 7.92268 4.34524 8.2105L4.25119 8.29624C3.89456 8.66816 3.92084 9.24603 4.30989 9.58695L11.3543 15.7599C11.3588 15.7638 11.3633 15.7677 11.3678 15.7715L11.2956 15.7038C11.3357 15.7456 11.3789 15.783 11.4246 15.8161C11.4416 15.8282 11.4588 15.8397 11.4762 15.8507C11.4938 15.8619 11.5121 15.8725 11.5306 15.8825C11.5475 15.8915 11.5643 15.9 11.5812 15.9079C11.6012 15.9172 11.6219 15.926 11.6429 15.934C11.6614 15.9412 11.6802 15.9478 11.6991 15.9538C11.7178 15.9596 11.7366 15.9649 11.7554 15.9697C11.7763 15.975 11.7975 15.9796 11.8187 15.9835C11.8405 15.9875 11.8625 15.9908 11.8846 15.9933C11.9006 15.9952 11.9169 15.9967 11.9333 15.9978C11.9558 15.9993 11.9782 16 12.0006 16C12.0225 16 12.0445 15.9992 12.0665 15.9978C12.0831 15.9967 12.0994 15.9952 12.1157 15.9933C12.1375 15.9908 12.1595 15.9875 12.1813 15.9835C12.2025 15.9796 12.2237 15.975 12.2447 15.9697C12.2634 15.9649 12.2822 15.9596 12.3007 15.9538C12.3198 15.9478 12.3386 15.9412 12.3572 15.934C12.3781 15.926 12.3988 15.9172 12.4192 15.9077C12.4357 15.9 12.4525 15.8915 12.469 15.8826C12.4879 15.8725 12.5062 15.8619 12.5241 15.8506C12.5412 15.8397 12.5584 15.8282 12.5752 15.816C12.6211 15.783 12.6643 15.7456 12.7044 15.7038L12.6322 15.7715C12.6367 15.7677 12.6412 15.7638 12.6457 15.7599L19.6901 9.58695C20.0792 9.24603 20.1054 8.66816 19.7488 8.29624Z"
+											fill="#F4F2FA"
+										/>
+									</svg> -->
+								</a>
+							</li>
+						</ul>
+					</nav>
+
+					<button class="button header__button button--default">Contáctanos</button>
+				</div>
+			</div>
+		</div>
+
+		 <section class="banner mb-128">
+			<div class="container">
+				<div class="swiper mySwiper bannerSwiper">
+					<div class="swiper-wrapper banner-swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="banner__box">
+								<div class="banner__content">
+									<div class="banner__content-title">
+										<p>
+											Unimos la data y el diseño centrado en el usuario para obtener resultados de
+											negocio
+										</p>
+									</div>
+									<div class="banner__btn-box">
+										<button class="button banner__button button--stock">Contáctanos</button>
+										<a href="#" class="banner__button-link">
+											<span class="banner__button-text">Ver soluciones</span>
+											<svg
+												class="banner__icons"
+												width="16"
+												height="16"
+												viewBox="0 0 16 16"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+													fill="#F4F2FA"
+												/>
+											</svg>
+										</a>
+									</div>
+									<div class="banner__group"></div>
+									<ul class="stats__items">
+										<li class="stats__item">
+											<div class="stats__item-number">21</div>
+											<div class="stats__item-text">años de experiencia</div>
+										</li>
+										<li class="stats__item">
+											<div class="stats__item-number">+100</div>
+											<div class="stats__item-text">empresas en más de 15 sectores distintos</div>
+										</li>
+										<li class="stats__item">
+											<div class="stats__item-number">+800</div>
+											<div class="stats__item-text">proyectos ejecutados en los últimos 5 años</div>
+										</li>
+									</ul>
+								</div>
+								<div class="banner__img">
+									<img src="images/img/banner.webp" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="banner__box">
+								<div class="banner__content">
+									<div class="banner__content-title">
+										<p>
+											Unimos la data y el diseño centrado en el usuario para obtener resultados de
+											negocio
+										</p>
+									</div>
+									<div class="banner__btn-box">
+										<button class="button banner__button button--stock">Contáctanos</button>
+										<a href="#" class="banner__button-link">
+											<span class="banner__button-text">Ver soluciones</span>
+											<svg
+												class="banner__icons"
+												width="16"
+												height="16"
+												viewBox="0 0 16 16"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+													fill="#F4F2FA"
+												/>
+											</svg>
+										</a>
+									</div>
+									<div class="banner__group"></div>
+									<ul class="stats__items">
+										<li class="stats__item">
+											<div class="stats__item-number">21</div>
+											<div class="stats__item-text">años de experiencia</div>
+										</li>
+										<li class="stats__item">
+											<div class="stats__item-number">+100</div>
+											<div class="stats__item-text">empresas en más de 15 sectores distintos</div>
+										</li>
+										<li class="stats__item">
+											<div class="stats__item-number">+800</div>
+											<div class="stats__item-text">proyectos ejecutados en los últimos 5 años</div>
+										</li>
+									</ul>
+								</div>
+								<div class="banner__img">
+									<img src="images/img/banner.webp" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="banner__box">
+								<div class="banner__content">
+									<div class="banner__content-title">
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis
+											veritatis dignissimos.
+										</p>
+									</div>
+									<div class="banner__btn-box">
+										<button class="button banner__button button--stock">Contáctanos</button>
+										<a href="#" class="banner__button-link">
+											<span class="banner__button-text">Ver soluciones</span>
+											<svg
+												class="banner__icons"
+												width="16"
+												height="16"
+												viewBox="0 0 16 16"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+													fill="#F4F2FA"
+												/>
+											</svg>
+										</a>
+									</div>
+									<div class="banner__group"></div>
+									<ul class="stats__items">
+										<li class="stats__item">
+											<div class="stats__item-number">21</div>
+											<div class="stats__item-text">años de experiencia</div>
+										</li>
+										<li class="stats__item">
+											<div class="stats__item-number">+100</div>
+											<div class="stats__item-text">empresas en más de 15 sectores distintos</div>
+										</li>
+										<li class="stats__item">
+											<div class="stats__item-number">+800</div>
+											<div class="stats__item-text">proyectos ejecutados en los últimos 5 años</div>
+										</li>
+									</ul>
+								</div>
+								<div class="banner__img">
+									<img src="images/img/banner.webp" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="banner__controls">
+						<div class="banner-btn-prev">
+							<svg
+								class="banner__controls-icons"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<g clip-path="url(#clip0_725_1912)">
+									<path
+										d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM12 11H16V13H12V16L8 12L12 8V11Z"
+										fill="white"
+									/>
+								</g>
+								<defs>
+									<clipPath id="clip0_725_1912">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<span class="banner-btn-prev-text">Anterior</span>
+						</div>
+						<div class="banner-btn-next">
+							<div class="banner-btn-next">
+								<span class="banner-btn-next-text">Siguiente</span>
+								<svg
+									class="banner__controls-icons"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_725_1920)">
+										<path
+											d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"
+											fill="white"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_725_1920">
+											<rect width="24" height="24" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+						</div>
+						<div class="swiper-pagination banner-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section> 
+
+		<section class="contamos mb-128">
+			<div class="container">
+				<div class="contamos__title title--default">Contamos con soluciones en</div>
+				<div class="contamos__items">
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/Laptop-Analysis-1.svg" alt="" />
+							<p class="contamos__subtitle">Canales digitales y Growth Haking</p>
+						</div>
+						<div class="contamos__text">
+							<p>
+								Atrae más clientes a través de Canales digitales y potencia tus resultados con
+								Growth Hacking.
+							</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/E-commerce.svg" alt="" />
+							<p class="contamos__subtitle">E-commerce</p>
+						</div>
+						<div class="contamos__text">
+							<p>Desarrolla estrategias que impulsen tu e-commerce.</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/Node_user.svg" alt="" />
+							<p class="contamos__subtitle">Headhunting y Mentoring</p>
+						</div>
+						<div class="contamos__text">
+							<p>Recluta, selecciona personal y forma talento digital de alto performance.</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/Consultation.svg" alt="" />
+							<p class="contamos__subtitle">Consultoría CRM</p>
+						</div>
+						<div class="contamos__text">
+							<p>Crea, desarrolla y mejora la relación con tus clientes.</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/Rise.svg" alt="" />
+							<p class="contamos__subtitle">Analítica Digital e Inteligencia Artificial</p>
+						</div>
+						<div class="contamos__text">
+							<p>Mide, visualiza y capitaliza la data de tu empresa.</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/Sync.svg" alt="" />
+							<p class="contamos__subtitle">Diseño de experiencia y Transformación Digital</p>
+						</div>
+						<div class="contamos__text">
+							<p>Conoce y mejora la experiencia UX/UI de los usuarios en mis activos digitales.</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/Statistic.svg" alt="" />
+							<p class="contamos__subtitle">Publicidad digital</p>
+						</div>
+						<div class="contamos__text">
+							<p>Logra tus objetivos de negocio usando medios digitales pagados y SEM.</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+					<div class="contamos__item">
+						<div class="contamos__item-group">
+							<img src="images/icons/Technical Information.svg" alt="" />
+							<p class="contamos__subtitle">Marketing Automation</p>
+						</div>
+						<div class="contamos__text">
+							<p>
+								Automatiza acciones, entrega contenido personalizado y fideliza a los clientes con
+								nuestras soluciones.
+							</p>
+						</div>
+						<button class="contamos__button button--link">
+							<span class="contamos__button-text">Ver servicios</span>
+							<svg
+								class="contamos__button-icons"
+								width="16"
+								height="16"
+								viewBox="0 0 16 16"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M10.7813 7.33333L7.20533 3.75733L8.148 2.81467L13.3333 8L8.148 13.1853L7.20533 12.2427L10.7813 8.66667H2.66667V7.33333H10.7813Z"
+									fill="#000033"
+								/>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="partners mb-128">
+			<div class="container">
+				<div class="partners__title title--default">Somos Partners</div>
+				<div class="partners__box">
+					<div class="partners__img">
+						<img src="images/img/partners-1.webp" alt="" />
+					</div>
+					<div class="partners__img">
+						<img src="images/img/partners-2.webp" alt="" />
+					</div>
+					<div class="partners__img">
+						<img src="images/img/partners-3.webp" alt="" />
+					</div>
+					<div class="partners__img">
+						<img src="images/img/partners-4.webp" alt="" />
+					</div>
+					<div class="partners__img">
+						<img src="images/img/partners-5.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about mb-128">
+			<div class="container">
+				<div class="about__inner">
+					<div class="swiper mySwiper aboutSwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="about__group">
+									<div class="about__img">
+										<img src="images/img/about.webp" alt="" />
+									</div>
+									<div class="about__content">
+										<div class="about__subtitle">Caso de éxito</div>
+										<div class="about__title">
+											Bellcorp hace uso de datos para el Customer Journey
+										</div>
+										<div class="about__text">
+											<p>
+												Abbott nos buscó para realizar un diagnóstico estratégico de los principales
+												indicadores digitales de las brand pages y programas de lealtad de Abbott
+												Perú para obtener claridad en el viaje del usuario.
+											</p>
+										</div>
+										<div class="about__button button button--stock">Ver el caso</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="about__group">
+									<div class="about__img">
+										<img src="images/img/about.webp" alt="" />
+									</div>
+									<div class="about__content">
+										<div class="about__subtitle">Caso de éxito</div>
+										<div class="about__title">
+											Bellcorp hace uso de datos para el Customer Journey
+										</div>
+										<div class="about__text">
+											<p>
+												Abbott nos buscó para realizar un diagnóstico estratégico de los principales
+												indicadores digitales de las brand pages y programas de lealtad de Abbott
+												Perú para obtener claridad en el viaje del usuario.
+											</p>
+										</div>
+										<div class="about__button button button--stock">Ver el caso</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="about__group">
+									<div class="about__img">
+										<img src="images/img/about.webp" alt="" />
+									</div>
+									<div class="about__content">
+										<div class="about__subtitle">Caso de éxito</div>
+										<div class="about__title">
+											Bellcorp hace uso de datos para el Customer Journey
+										</div>
+										<div class="about__text">
+											<p>
+												Abbott nos buscó para realizar un diagnóstico estratégico de los principales
+												indicadores digitales de las brand pages y programas de lealtad de Abbott
+												Perú para obtener claridad en el viaje del usuario.
+											</p>
+										</div>
+										<div class="about__button button button--stock">Ver el caso</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="about__navigations">
+							<div class="about-button-prev">
+								<svg
+									class="about__navigations-icons"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM12 11H16V13H12V16L8 12L12 8V11Z"
+										fill="#CECFFB"
+									/>
+								</svg>
+								<div class="about-button-text">Anterior</div>
+							</div>
+
+							<div class="about-button-next">
+								<div class="about-button-text">Siguiente</div>
+								<svg
+									class="about__navigations-icons"
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_725_1920)">
+										<path
+											d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"
+											fill="white"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_725_1920">
+											<rect width="24" height="24" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+
+							<div class="swiper-pagination about-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="recomiendan mb-128">
+			<div class="container">
+				<div class="recomiendan__inner">
+					<div class="recomiendan__title title--default">Nuestros clientes nos recomiendan</div>
+					<div class="swiper mySwiper recomiendanSwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="recomiendan__box">
+									<div class="recomiendan__logo">
+										<img src="images/img/recomiendan-logo-1.webp" alt="" />
+									</div>
+									<div class="recomiendan__text">
+										<p>
+											“Logramos reducir la información que debe ingresar el usuario a un solo campo,
+											y realizar esto desde un modal sin alterar su navegación. Menos pasos en el
+											proceso de compra incrementan el ratio de conversión significativamente.”
+										</p>
+									</div>
+									<div class="recomiendan__group">
+										<div class="recomiendan__group-img">
+											<img src="images/img/recomiendan-2.webp" alt="" />
+										</div>
+										<div class="recomiendan__group-content">
+											<div class="recomiendan__group-name">Diego Nasra</div>
+											<div class="recomiendan__group-subtitle">Product Owner en BCP</div>
+										</div>
+									</div>
+									<div class="recomiendan__button">
+										<button class="recomiendan__btn button__link button button--arow">
+											Ver caso de éxito
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="recomiendan__box">
+									<div class="recomiendan__logo">
+										<img src="images/img/recomiendan-logo-2.webp" alt="" />
+									</div>
+									<div class="recomiendan__text">
+										<p>
+											“Logramos reducir la información que debe ingresar el usuario a un solo campo,
+											y realizar esto desde un modal sin alterar su navegación. Menos pasos en el
+											proceso de compra incrementan el ratio de conversión significativamente.”
+										</p>
+									</div>
+									<div class="recomiendan__group">
+										<div class="recomiendan__group-img">
+											<img src="images/img/recomiendan-3.webp" alt="" />
+										</div>
+										<div class="recomiendan__group-content">
+											<div class="recomiendan__group-name">Diego Nasra</div>
+											<div class="recomiendan__group-subtitle">Product Owner en BCP</div>
+										</div>
+									</div>
+									<div class="recomiendan__button">
+										<button class="recomiendan__btn button__link button button--arow">
+											Ver caso de éxito
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="recomiendan__box">
+									<div class="recomiendan__logo">
+										<img src="images/img/recomiendan-logo-3.webp" alt="" />
+									</div>
+									<div class="recomiendan__text">
+										<p>
+											“Logramos reducir la información que debe ingresar el usuario a un solo campo,
+											y realizar esto desde un modal sin alterar su navegación. Menos pasos en el
+											proceso de compra incrementan el ratio de conversión significativamente.”
+										</p>
+									</div>
+									<div class="recomiendan__group">
+										<div class="recomiendan__group-img">
+											<img src="images/img/recomiendan-2.webp" alt="" />
+										</div>
+										<div class="recomiendan__group-content">
+											<div class="recomiendan__group-name">Diego Nasra</div>
+											<div class="recomiendan__group-subtitle">Product Owner en BCP</div>
+										</div>
+									</div>
+									<div class="recomiendan__button">
+										<button class="recomiendan__btn button__link button button--arow">
+											Ver caso de éxito
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="recomiendan__box">
+									<div class="recomiendan__logo">
+										<img src="images/img/recomiendan-logo-2.webp" alt="" />
+									</div>
+									<div class="recomiendan__text">
+										<p>
+											“Logramos reducir la información que debe ingresar el usuario a un solo campo,
+											y realizar esto desde un modal sin alterar su navegación. Menos pasos en el
+											proceso de compra incrementan el ratio de conversión significativamente.”
+										</p>
+									</div>
+									<div class="recomiendan__group">
+										<div class="recomiendan__group-img">
+											<img src="images/img/recomiendan-2.webp" alt="" />
+										</div>
+										<div class="recomiendan__group-content">
+											<div class="recomiendan__group-name">Diego Nasra</div>
+											<div class="recomiendan__group-subtitle">Product Owner en BCP</div>
+										</div>
+									</div>
+									<div class="recomiendan__button">
+										<button class="recomiendan__btn button__link button button--arow">
+											Ver caso de éxito
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="recomiendan__box">
+									<div class="recomiendan__logo">
+										<img src="images/img/recomiendan-logo-1.webp" alt="" />
+									</div>
+									<div class="recomiendan__text">
+										<p>
+											“Logramos reducir la información que debe ingresar el usuario a un solo campo,
+											y realizar esto desde un modal sin alterar su navegación. Menos pasos en el
+											proceso de compra incrementan el ratio de conversión significativamente.”
+										</p>
+									</div>
+									<div class="recomiendan__group">
+										<div class="recomiendan__group-img">
+											<img src="images/img/recomiendan-2.webp" alt="" />
+										</div>
+										<div class="recomiendan__group-content">
+											<div class="recomiendan__group-name">Diego Nasra</div>
+											<div class="recomiendan__group-subtitle">Product Owner en BCP</div>
+										</div>
+									</div>
+									<div class="recomiendan__button">
+										<button class="recomiendan__btn button__link button button--arow">
+											Ver caso de éxito
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="recomiendan__navigations">
+							<div class="pagination-button-prev">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM12 11H16V13H12V16L8 12L12 8V11Z"
+										fill="#CCCCD6"
+									/>
+								</svg>
+								<div class="pagination__text">Anterior</div>
+							</div>
+							<div class="pagination-button-next">
+								<div class="pagination__text">Siguiente</div>
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12 11V8L16 12L12 16V13H8V11H12ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"
+										fill="#100FA8"
+									/>
+								</svg>
+							</div>
+							<div class="swiper-pagination recomiendan-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="empresas mb-128">
+			<div class="container">
+				<div class="empresas__title title--default">
+					Algunas empresas que ya confían en nosotros.
+				</div>
+				<div class="empresas__grid">
+					<div class="empresas__img">
+						<img src="images/img/empresas-1.webp" alt="" />
+					</div>
+					<div class="empresas__img">
+						<img src="images/img/empresas-2.webp" alt="" />
+					</div>
+					<div class="empresas__img">
+						<img src="images/img/empresas-3.webp" alt="" />
+					</div>
+					<div class="empresas__img">
+						<img src="images/img/empresas-4.webp" alt="" />
+					</div>
+					<div class="empresas__img">
+						<img src="images/img/empresas-5.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="compromiso mb-128">
+			<div class="container">
+				<ul class="compromiso__items">
+					<li class="compromiso__item">
+						<div class="compromiso__content">
+							<div class="compromiso__title title--default">
+								Nuestro compromiso como
+								<span>B CORP</span>
+							</div>
+							<div class="compromiso__text">
+								Usamos el poder de los negocios para desarrollar una economía inclusiva y
+								sostenible; generando un triple impacto: en el ambiente, la sociedad y las personas,
+								junto a un equipo que comparte los mismos valores.
+							</div>
+							<a href="" class="compromiso__link button--link recomiendan__btn">
+								Descarga nuestro informe de impacto
+							</a>
+						</div>
+						<div class="compromiso__img">
+							<img src="images/img/compromiso-1.png" alt="" />
+						</div>
+					</li>
+					<li class="compromiso__item">
+						<div class="compromiso__content">
+							<div class="compromiso__subtitle">Preguntas frecuentes</div>
+							<div class="compromiso__text">
+								Aclara todas tus dudas acerca de nuestras soluciones y cartera de servicios.
+							</div>
+							<div class="compromiso__accordion">
+								<div class="compromiso__accordion-item">
+									<div class="compromiso__accordion-title accordion--arrow active">
+										¿Por qué elegir un servicio de consultoría en Comercio Electrónico?
+									</div>
+									<div class="compromiso__accordion-text active">
+										Para poder lograr nuestros objetivos de negocio, es importante tener un aliado
+										que pueda dar acompañamiento y soporte en la estrategia de la tienda virtual.
+										Ahí cobra relevancia el rol de una consultoría en comercio electrónico, ya que
+										identifica los puntos de mejora durante toda la interación del potencial cliente
+										con la tienda virtual. Desde el primer contacto que tiene a través de los
+										diferentes canales digitales hasta la atención post venta y fidelización. Todo
+										esto soportado a través de un equipo interdisciplinario y experto.
+									</div>
+								</div>
+								<div class="compromiso__accordion-item">
+									<div class="compromiso__accordion-title accordion--arrow">
+										¿Cómo puedo elegir el CRM más adecuado para mi empresa?
+									</div>
+									<div class="compromiso__accordion-text">
+										Para poder lograr nuestros objetivos de negocio, es importante tener un aliado
+										que pueda dar acompañamiento y soporte en la estrategia de la tienda virtual.
+										Ahí cobra relevancia el rol de una consultoría en comercio electrónico, ya que
+										identifica los puntos de mejora durante toda la interación del potencial cliente
+										con la tienda virtual. Desde el primer contacto que tiene a través de los
+										diferentes canales digitales hasta la atención post venta y fidelización. Todo
+										esto soportado a través de un equipo interdisciplinario y experto.
+									</div>
+								</div>
+								<div class="compromiso__accordion-item">
+									<div class="compromiso__accordion-title accordion--arrow">
+										¿Por qué debo migrar a Google Analytics 4?
+									</div>
+									<div class="compromiso__accordion-text">
+										Para poder lograr nuestros objetivos de negocio, es importante tener un aliado
+										que pueda dar acompañamiento y soporte en la estrategia de la tienda virtual.
+										Ahí cobra relevancia el rol de una consultoría en comercio electrónico, ya que
+										identifica los puntos de mejora durante toda la interación del potencial cliente
+										con la tienda virtual. Desde el primer contacto que tiene a través de los
+										diferentes canales digitales hasta la atención post venta y fidelización. Todo
+										esto soportado a través de un equipo interdisciplinario y experto.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="compromiso__img acordioan-img">
+							<img src="images/img/compromiso-2.png" alt="" />
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="listos mb-128">
+			<div class="container">
+				<div class="listos__inner">
+					<div class="listos__content">
+						<div class="listos__titel title--default">Estamos listos para conversar contigo</div>
+						<div class="listos__text">
+							Nuestros consultores te ayudarán a llevar tu organización al siguiente nivel.
+						</div>
+						<div class="listos__button button button--stock">Contáctanos</div>
+					</div>
+					<div class="listos__img">
+						<img src="images/img/listos.webp" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contenido mb-128">
+			<div class="container">
+				<div class="contenido__items">
+					<div class="contenido__item">
+						<div class="contenido__img">
+							<img src="images/img/contenido__img-1.webp" alt="" />
+						</div>
+						<div class="contenido__content">
+							<div class="contenido__box">
+								<div class="contenido__subtitle">Experience Design</div>
+								<div class="contenido__title">Título del contenido</div>
+								<div class="contenido__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit elementum nisl sed
+										donec. Egestas ullamcorper elit laoreet nibh tristique bibendum commodo velit.
+									</p>
+								</div>
+							</div>
+							<div class="contenido__box">
+								<span class="contenido__teg">Tag</span>
+								<a href="#S" class="contenido__link recomiendan__btn">Me interesa</a>
+							</div>
+						</div>
+					</div>
+					<div class="contenido__item">
+						<div class="contenido__img">
+							<img src="images/img/contenido__img-2.webp" alt="" />
+						</div>
+						<div class="contenido__content">
+							<div class="contenido__box">
+								<div class="contenido__subtitle">Experience Design</div>
+								<div class="contenido__title">Título del contenido</div>
+								<div class="contenido__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit elementum nisl sed
+										donec. Egestas ullamcorper elit laoreet nibh tristique bibendum commodo velit.
+									</p>
+								</div>
+							</div>
+							<div class="contenido__box">
+								<span class="contenido__teg">Tag</span>
+								<a href="#S" class="contenido__link recomiendan__btn">Me interesa</a>
+							</div>
+						</div>
+					</div>
+					<div class="contenido__item">
+						<div class="contenido__img">
+							<img src="images/img/contenido__img-3.webp" alt="" />
+						</div>
+						<div class="contenido__content">
+							<div class="contenido__box">
+								<div class="contenido__subtitle">Experience Design</div>
+								<div class="contenido__title">Título del contenido</div>
+								<div class="contenido__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit elementum nisl sed
+										donec. Egestas ullamcorper elit laoreet nibh tristique bibendum commodo velit.
+									</p>
+								</div>
+							</div>
+							<div class="contenido__box">
+								<span class="contenido__teg">Tag</span>
+								<a href="#S" class="contenido__link recomiendan__btn">Me interesa</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<div class="footer__top-items">
+						<div class="footer__top-item">
+							<div class="footer__top-box">
+								<div class="footer__top-title">Servicios en</div>
+								<a href="#" class="footer__top-link">Analítica Digital e Inteligencia Artificial</a>
+								<a href="#" class="footer__top-link">Canales digitales y Growth Haking</a>
+								<a href="#" class="footer__top-link">Consultoría CRM</a>
+								<a href="#" class="footer__top-link">Diseño de experiencia</a>
+								<a href="#" class="footer__top-link">E-commerce</a>
+								<a href="#" class="footer__top-link">Headhunting y Mentoring</a>
+								<a href="#" class="footer__top-link">Marketing Automation</a>
+								<a href="#" class="footer__top-link">Publicidad Digital</a>
+							</div>
+							<div class="footer__top-box">
+								<div class="footer__top-title">Redes sociales</div>
+								<div class="footer__top-social">
+									<a href="#" class="footer__top-social-link">
+										<svg
+											class="footer__top-social-icons"
+											width="40"
+											height="40"
+											viewBox="0 0 40 40"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M35.905 10.83C36.6667 13.8 36.6667 20 36.6667 20C36.6667 20 36.6667 26.2 35.905 29.17C35.4817 30.8117 34.2433 32.1033 32.675 32.54C29.8267 33.3333 20 33.3333 20 33.3333C20 33.3333 10.1783 33.3333 7.325 32.54C5.75 32.0967 4.51333 30.8067 4.095 29.17C3.33333 26.2 3.33333 20 3.33333 20C3.33333 20 3.33333 13.8 4.095 10.83C4.51833 9.18833 5.75667 7.89667 7.325 7.46C10.1783 6.66667 20 6.66667 20 6.66667C20 6.66667 29.8267 6.66667 32.675 7.46C34.25 7.90333 35.4867 9.19333 35.905 10.83ZM16.6667 25.8333L26.6667 20L16.6667 14.1667V25.8333Z"
+												fill="#000033"
+											/>
+										</svg>
+									</a>
+									<a href="#" class="footer__top-social-link">
+										<svg
+											class="footer__top-social-icons"
+											width="40"
+											height="40"
+											viewBox="0 0 40 40"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g clip-path="url(#clip0_725_2360)">
+												<path
+													d="M25.67 35V23.39H29.5583L30.14 18.8767H25.67V15.9967C25.67 14.69 26.0333 13.7983 27.9067 13.7983H30.2967V9.76167C29.1397 9.63891 27.9768 9.57937 26.8133 9.58333C23.3683 9.58333 21.01 11.6867 21.01 15.55V18.8767H17.1133V23.39H21.01V35H6.66667C6.22464 35 5.80072 34.8244 5.48816 34.5118C5.17559 34.1993 5 33.7754 5 33.3333V6.66667C5 6.22464 5.17559 5.80072 5.48816 5.48816C5.80072 5.17559 6.22464 5 6.66667 5H33.3333C33.7754 5 34.1993 5.17559 34.5118 5.48816C34.8244 5.80072 35 6.22464 35 6.66667V33.3333C35 33.7754 34.8244 34.1993 34.5118 34.5118C34.1993 34.8244 33.7754 35 33.3333 35H25.67Z"
+													fill="#000033"
+												/>
+											</g>
+											<defs>
+												<clipPath id="clip0_725_2360">
+													<rect width="40" height="40" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+									</a>
+									<a href="#" class="footer__top-social-link">
+										<svg
+											class="footer__top-social-icons"
+											width="40"
+											height="40"
+											viewBox="0 0 40 40"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M26.1167 30.565V23.6033C26.1167 21.9433 26.0833 19.8067 23.8 19.8067C21.485 19.8067 21.1317 21.6133 21.1317 23.4817V30.565H16.6883V16.25H20.955V18.2H21.0133C21.61 17.0767 23.06 15.8883 25.2267 15.8883C29.7267 15.8883 30.56 18.8517 30.56 22.7067V30.565H26.1167ZM11.6717 14.2917C11.3326 14.2921 10.9968 14.2256 10.6834 14.096C10.3701 13.9664 10.0854 13.7762 9.84576 13.5364C9.60608 13.2966 9.41609 13.0118 9.28668 12.6984C9.15728 12.3849 9.09101 12.0491 9.09167 11.71C9.092 11.1997 9.24363 10.701 9.5274 10.2769C9.81117 9.85281 10.2143 9.52239 10.6859 9.32742C11.1574 9.13245 11.6762 9.08169 12.1766 9.18157C12.677 9.28144 13.1366 9.52746 13.4972 9.88851C13.8578 10.2496 14.1032 10.7094 14.2024 11.21C14.3016 11.7105 14.2502 12.2292 14.0546 12.7005C13.8591 13.1718 13.5281 13.5746 13.1037 13.8578C12.6792 14.141 12.1819 14.292 11.6717 14.2917ZM9.44333 30.565V16.25H13.9V30.565H9.44333ZM32.7833 5H7.215C5.98833 5 5 5.96667 5 7.16167V32.8383C5 34.0333 5.99 35 7.21333 35H32.7767C34 35 35 34.0333 35 32.8383V7.16167C35 5.96667 34 5 32.7767 5H32.7833Z"
+												fill="#000033"
+											/>
+										</svg>
+									</a>
+									<a href="#" class="footer__top-social-link">
+										<svg
+											class="footer__top-social-icons"
+											width="40"
+											height="40"
+											viewBox="0 0 40 40"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M20 3.33333C24.5283 3.33333 25.0933 3.35 26.87 3.43333C28.645 3.51667 29.8533 3.795 30.9167 4.20833C32.0167 4.63167 32.9433 5.205 33.87 6.13C34.7175 6.96316 35.3733 7.97098 35.7917 9.08333C36.2033 10.145 36.4833 11.355 36.5667 13.13C36.645 14.9067 36.6667 15.4717 36.6667 20C36.6667 24.5283 36.65 25.0933 36.5667 26.87C36.4833 28.645 36.2033 29.8533 35.7917 30.9167C35.3745 32.0296 34.7185 33.0377 33.87 33.87C33.0366 34.7172 32.0288 35.3729 30.9167 35.7917C29.855 36.2033 28.645 36.4833 26.87 36.5667C25.0933 36.645 24.5283 36.6667 20 36.6667C15.4717 36.6667 14.9067 36.65 13.13 36.5667C11.355 36.4833 10.1467 36.2033 9.08333 35.7917C7.97054 35.3741 6.96255 34.7182 6.13 33.87C5.28234 33.037 4.62655 32.0291 4.20833 30.9167C3.795 29.855 3.51667 28.645 3.43333 26.87C3.355 25.0933 3.33333 24.5283 3.33333 20C3.33333 15.4717 3.35 14.9067 3.43333 13.13C3.51667 11.3533 3.795 10.1467 4.20833 9.08333C4.62539 7.9703 5.28134 6.9622 6.13 6.13C6.96278 5.28205 7.97071 4.62622 9.08333 4.20833C10.1467 3.795 11.3533 3.51667 13.13 3.43333C14.9067 3.355 15.4717 3.33333 20 3.33333ZM20 11.6667C17.7899 11.6667 15.6702 12.5446 14.1074 14.1074C12.5446 15.6702 11.6667 17.7899 11.6667 20C11.6667 22.2101 12.5446 24.3298 14.1074 25.8926C15.6702 27.4554 17.7899 28.3333 20 28.3333C22.2101 28.3333 24.3298 27.4554 25.8926 25.8926C27.4554 24.3298 28.3333 22.2101 28.3333 20C28.3333 17.7899 27.4554 15.6702 25.8926 14.1074C24.3298 12.5446 22.2101 11.6667 20 11.6667ZM30.8333 11.25C30.8333 10.6975 30.6138 10.1676 30.2231 9.77686C29.8324 9.38616 29.3025 9.16667 28.75 9.16667C28.1975 9.16667 27.6676 9.38616 27.2769 9.77686C26.8862 10.1676 26.6667 10.6975 26.6667 11.25C26.6667 11.8025 26.8862 12.3324 27.2769 12.7231C27.6676 13.1138 28.1975 13.3333 28.75 13.3333C29.3025 13.3333 29.8324 13.1138 30.2231 12.7231C30.6138 12.3324 30.8333 11.8025 30.8333 11.25ZM20 15C21.3261 15 22.5979 15.5268 23.5355 16.4645C24.4732 17.4021 25 18.6739 25 20C25 21.3261 24.4732 22.5979 23.5355 23.5355C22.5979 24.4732 21.3261 25 20 25C18.6739 25 17.4021 24.4732 16.4645 23.5355C15.5268 22.5979 15 21.3261 15 20C15 18.6739 15.5268 17.4021 16.4645 16.4645C17.4021 15.5268 18.6739 15 20 15Z"
+												fill="#000033"
+											/>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer__top-item">
+							<div class="footer__top-group">
+								<div class="footer__top-title">Somos NEO</div>
+								<a href="#" class="footer__top-link">Sobre nosotros</a>
+								<a href="#" class="footer__top-link">Bolsa de trabajo</a>
+								<a href="#" class="footer__top-link">Guia Bcorp</a>
+							</div>
+							<div class="footer__top-group">
+								<div class="footer__top-title">Somos NEO</div>
+								<a href="#" class="footer__top-link">Perú</a>
+								<a href="#" class="footer__top-link">Colombia</a>
+								<a href="#" class="footer__top-link">Chile</a>
+								<a href="#" class="footer__top-link">México</a>
+							</div>
+						</div>
+						<div class="footer__top-item">
+							<div class="footer__top-title">Recursos</div>
+							<a href="#" class="footer__top-link">Blog</a>
+							<a href="#" class="footer__top-link">Descargables</a>
+							<a href="#" class="footer__top-link">Cursos Gratuitos</a>
+							<a href="#" class="footer__top-link">Webinars</a>
+						</div>
+						<div class="footer__top-item footer--width">
+							<div class="footer__box-img">
+								<div class="footer__top-title">Premios y reconocimientos</div>
+								<div class="footer__box-images">
+									<img
+										class="footer__box-images-premios"
+										src="images/img/premios.png"
+										alt=""
+									/>
+									<img
+										class="footer__box-images-premios"
+										src="images/img/premios-2.png"
+										alt=""
+									/>
+									<img
+										class="footer__box-images-premios"
+										src="images/img/premios-3.png"
+										alt=""
+									/>
+								</div>
+							</div>
+							<div class="footer__box-img">
+								<div class="footer__top-title">Somo partners</div>
+								<div class="footer__box-images footer--partners">
+									<img
+										class="footer__box-images-partners"
+										src="images/img/footer-partners-1.png"
+										alt=""
+									/>
+									<img
+										class="footer__box-images-partners"
+										src="images/img/footer-partners-2.png"
+										alt=""
+									/>
+									<img
+										class="footer__box-images-partners"
+										src="images/img/footer-partners-3.png"
+										alt=""
+									/>
+									<img
+										class="footer__box-images-partners"
+										src="images/img/footer-partners-4.png"
+										alt=""
+									/>
+									<img
+										class="footer__box-images-partners"
+										src="images/img/footer-partners-5.png"
+										alt=""
+									/>
+								</div>
+							</div>
+							<div class="footer__box-img">
+								<div class="footer__top-title">Afiliaciones</div>
+								<div class="footer__box-images">
+									<img
+										class="footer__box-images-Afiliaciones"
+										src="images/img/Afiliaciones-1.png"
+										alt=""
+									/>
+									<img
+										class="footer__box-images-Afiliaciones"
+										src="images/img/Afiliaciones-1.png"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__bottom">
+					<div class="footer__bottom-logo">
+						<a href="#"><img src="images/icons/footer-Logo-NEO.svg" alt="" /></a>
+					</div>
+					<div class="footer__bottom-copirating">
+						© 2022 NEO Consulting - Todos los derechos reservados | Política de privacidad |
+						Terminos de uso | Politica de Cookies
+					</div>
+					<div class="footer__bottom-img">
+						<img src="images/img/footer_img.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="overlay"></div>
+		<!-- слайдер -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+	</body>
+</html>

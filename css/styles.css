@@ -668,6 +668,9 @@ li {
 		justify-content: center;
 	}
 
+	.banner__img img {
+		width: 390px;
+	}
 }
 
 /* Секция contamos start*/
